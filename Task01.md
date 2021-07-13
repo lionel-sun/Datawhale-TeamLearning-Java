@@ -61,6 +61,86 @@ vim¸ÕÆô¶¯±ã½øÈëÃüÁîÄ£Ê½£¬´ËÊ±ÇÃ»÷¼üÅÌÊ¶±ğÎªÃüÁî¡£³£¼ûÃüÁî£ºiÇĞ»»µ½ÊäÈëÄ£Ê½£¬xÉ¾³
 
 ### »ù±¾Êı¾İÀàĞÍºÍ±äÁ¿
 
+#### »ù±¾Êı¾İÀàĞÍ°ËÖÖ
+
+ÕûĞÍ£ºbyte, short, int, long
+
+¸¡µãĞÍ£ºfloat, double
+
+×Ö·ûĞÍ£ºchar
+
+²¼¶ûĞÍ£ºbollean
+
+»¹ÓĞ¸ö³£¼û×Ö·û´®ÀàĞÍ£ºString
 
 ```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        /*»ù±¾Êı¾İÀàĞÍ8ÖÖ*/
+        boolean bool = false;
+        byte by = 1;
+        char ch = 'c';
+        double d = 2.0;
+        float f = 0.1f;
+        int i = 1;
+        long l = 2;
+        short sh = 3;
+        String str = "string";
+        System.out.println("Bool :" + bool);
+        System.out.println("Byte :" + by);
+        System.out.println("Character:" + ch);
+        System.out.println("Double :" + d);
+        System.out.println("Float :" + f);
+        System.out.println("Integer :" + i);
+        System.out.println("Long :" + l);
+        System.out.println("Short :" + sh);
+        System.out.println("String :" + str);
+    }
+}
 ```
+
+#### ±äÁ¿ÀàĞÍ
+
+
+- ¾Ö²¿±äÁ¿£ºÀà·½·¨ÖĞµÄ±äÁ¿£¬ÔÚ¾Ö²¿Ê¹ÓÃÖ´ĞĞºó±»Ïú»Ù¡£
+
+- ÊµÀı±äÁ¿£º¶ÀÁ¢ÓÚ·½·¨Ö®Íâ£¬Ã»ÓĞstaticĞŞÊÎ¡£µ±Ò»¸ö¶ÔÏó±»ÊµÀı»¯ºó£¬ÊµÀı±äÁ¿µÄÖµ¾ÍÈ·¶¨ÁË¡£
+Ëæ×ÅÊµÀı±»Ïú»Ù¶øÏú»Ù¡£
+
+- Àà±äÁ¿£º¶ÀÁ¢ÓÚ·½·¨Ö®Íâ£¬ÓÃstaticĞŞÊÎ¡£¾²Ì¬±äÁ¿£¬Àà´´½¨µÄÃ¿¸ö¶ÔÏó¶¼ÓĞÀà±äÁ¿µÄ¸´ÖÆ¡££¨Öµ²»±äºÍÀàÖĞÒ»Ñù£©
+
+- ÀàĞÍ×ª»»£º
+
+![](https://github.com/datawhalechina/team-learning-program/blob/master/Java/img/i0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg)
+
+Ç¿ÖÆÀàĞÍ×ª»»£º
+
+```java
+double x = 9.997;
+int nx = (int)x;
+/*Ê¹ÓÃMath.round·½·¨½øĞĞÉáÈëÔËËã*/
+int nx = (int) Math.round(x);
+```
+
+- ³£Á¿£º³ÌĞòÔËĞĞÊ±²»ÄÜĞŞ¸Ä¡£ÓÃfinal¹Ø¼ü×ÖĞŞÊÎ¡£
+
+#### Ã¶¾ÙÀàĞÍ
+
+Ã¶¾ÙÊÇÒ»¸öÌØÊâµÄÀà±íÊ¾Ò»×é³£Á¿¡£
+
+```java
+enum Color
+{
+	RED, GREEN, BLUE, YELLOW, BLACK;
+}
+public static void main(String[] args)
+{
+	Color c1 = Color.RED;
+	Color c2 = Color.BLUE;
+	System.out.println(c1);
+}
+
+```
+
+²Î¿¼Ë÷Òı
+1. [²ËÄñ½Ì³Ì ±äÁ¿ÀàĞÍ](https://www.runoob.com/java/java-variable-types.html)
