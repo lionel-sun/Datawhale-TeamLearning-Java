@@ -136,7 +136,7 @@ enum Color
 public static void main(String[] args)
 {
 	Color c1 = Color.RED, c2 = Color.BLUE;
-    System.out.println("color1: "+c1+" color2: "+c2);
+	System.out.println("color1: "+c1+" color2: "+c2);
 }
 
 ```
