@@ -21,6 +21,9 @@ Done
 
 ## [Task03：Java数组](https://github.com/lionel-sun/Datawhale-TeamLearning-Java/blob/main/Task03.md)
 
+- 数组
+
+Done
 ## [Task04：面向对象编程基础](https://github.com/lionel-sun/Datawhale-TeamLearning-Java/blob/main/Task04.md)
 
 ## [Task05：面向对象核心技术](https://github.com/lionel-sun/Datawhale-TeamLearning-Java/blob/main/Task05.md)
