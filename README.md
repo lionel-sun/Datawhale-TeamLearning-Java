@@ -26,6 +26,12 @@ Done
 Done
 ## [Task04：面向对象编程基础](https://github.com/lionel-sun/Datawhale-TeamLearning-Java/blob/main/Task04.md)
 
+- 类与方法
+
+- 继承与多态
+
+Done
+
 ## [Task05：面向对象核心技术](https://github.com/lionel-sun/Datawhale-TeamLearning-Java/blob/main/Task05.md)
 
 ## [Task06：反射与注释](https://github.com/lionel-sun/Datawhale-TeamLearning-Java/blob/main/Task06.md)
