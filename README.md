@@ -34,6 +34,12 @@ Done
 
 ## [Task05：面向对象核心技术](https://github.com/lionel-sun/Datawhale-TeamLearning-Java/blob/main/Task05.md)
 
+- 抽象类与接口
+
+- 异常处理
+
+Done
+
 ## [Task06：反射与注释](https://github.com/lionel-sun/Datawhale-TeamLearning-Java/blob/main/Task06.md)
 
 ## [Task07: 泛型](https://github.com/lionel-sun/Datawhale-TeamLearning-Java/blob/main/Task07.md)
