@@ -88,3 +88,24 @@ public class Teacher implements Sleep,Teach{
 ```
 
 ## 异常处理
+
+程序运行过程中会出现一些错误。异常处理可以在出现错误时候按照既定逻辑进行运行。
+
+异常发生原因通常包括：用户输入非法数据。要打开的文件不存在。网络通信中断，JVM内存溢出。
+
+java中三种类型的异常：检查性异常；运行时异常；错误。
+
+异常处理中常用的关键字：try, catch, finally, throw, throws。
+
+异常处理的流程：
+
+```java
+try{
+	// 程序代码
+}catch(exceptiontype name){
+	// 程序代码
+}finally{
+	// 程序代码
+}
+
+```
